@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '叔叔很生气';
-    if (score <= 99) return '你所热爱的就是你的生活';
-    if (score <= 149) return '您就是蒙古上单？';
-    if (score <= 199) return '您马什么时候4啊？';
-    return '人？';
+    if (score <= 49) return '绍轩让你坐大牢了';
+    if (score <= 99) return '对抗路技术不成熟';
+    if (score <= 149) return '小绍轩痛苦坐牢';
+    if (score <= 199) return '您成功让绍轩坐牢一整局';
+    return '您就是界徐盛？';
 }
 
 function toStr(obj) {
@@ -408,7 +408,7 @@ function goRank() {
     }
     window.location.href=link;
 }
-console.log("不修改，好嘛？乱传又有什么用呢？(ˉ▽ˉ；)...")
+console.log("你就是狗卡派来的阴兵？")
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false
